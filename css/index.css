@@ -1,0 +1,121 @@
+#chart-contain {
+	height: 375px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	background-color: rgb(255, 255, 255);
+	font-size: 12pt;
+}
+#chart-body {
+	height: 325px;
+}
+
+#chart_penggantian {
+	padding: 0px;
+	min-width: 360px;
+	overflow: hidden;
+}
+#chart-semester-selector {
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#semester-selector-text {
+	width: auto;
+	display: inline-block;
+}
+
+.btn-semester {
+	float: none;
+	background-color: rgb(136, 136, 136);
+	border-radius: 5px;
+	display: inline-block;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.statistic-container {
+	display: block;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: white;
+	text-align: center;
+	margin-top: 75px;
+	font-size: 12pt;
+}
+
+.statistic-container h1 {
+	font-size: 20pt;
+}
+
+.statistic {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+
+.statistic_data {
+	display: inline-block;
+	border-right: 1px solid black;
+	text-align: center;
+	width: 25%;
+
+}
+
+.statistic_1 {
+	border-right: 1px solid gray;
+}
+
+.statistic_last {
+	border-right: none;
+}
+
+.material-icons {
+	font-size: 2.3em !important;
+	text-align: center !important;
+	margin: auto;
+}
+
+.statistic_data .data_1 {
+	color: rgb(249, 103, 56);
+}
+
+.statistic_data .data_2 {
+	color: rgb(28, 207, 19);
+}
+
+.statistic_data .data_3 {
+	color: rgb(255, 44, 44);
+}
+
+.statistic_data .data_4 {
+	color: rgb(51, 171, 255);
+}
+
+@media (max-width: 800px) {
+	.statistic {
+		display: block;
+	}
+
+	.statistic_data {
+		display: block;
+		border-right: none;
+		border-bottom: 1px solid gray;
+		margin: auto;
+		width: auto;
+	}
+}
+@media (max-width: 480px) {
+	#chart-contain {
+		height: 425px;
+		padding-top: 50px;
+	}
+}

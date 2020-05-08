@@ -1,0 +1,210 @@
+html {
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	min-width: 100%;
+}
+
+body {
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	min-width: 100%;
+	background-color: rgb(233, 234, 239);
+	font-size:  10pt;
+	font-family: Montserrat,"Helvetica Neue",Arial,sans-serif !important;
+}
+
+#wrapper {
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	min-width: 100%;
+	background-color: rgb(233, 234, 239);
+}
+
+#main-contain {
+	width: calc(100% - 225px);
+	display: block;
+	float: right;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.form-area, .toggle-heading {
+	background-color: white;
+	width: 100%;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	min-width: 480px;
+}
+
+.toggle-heading {
+	margin-bottom: 0px;
+	cursor: pointer;
+}
+
+.form-area table, .detail-head table {
+	width: 100%;
+}
+
+.detail-head .collapsable-table,{
+	padding: 20px;
+	background-color: white;
+}
+
+.detail-head h1 {
+	font-size: 20pt;
+}
+
+.form-area table thead, .detail-head table thead {
+	padding: 10px 5px;
+}
+
+table tbody tr td, .detail-head table tbody tr td {
+	padding: 10px 5px;
+}
+
+.td-link{
+	cursor: pointer;
+	color: blue;
+}
+
+.form-area table thead tr th, .detail-head table thead th {
+	color: rgb(249, 118, 91);
+	padding: 10px 5px;
+}
+
+.form-area table tbody tr:nth-child(2n+0), .detail-head table tbody tr:nth-child(2n+0) {
+	background-color: rgb(255, 255, 255);
+}
+
+.form-area table tbody tr:nth-child(2n+1), .detail-head table tbody tr:nth-child(2n+1) {
+	background-color: rgb(242, 242, 242);
+}
+
+.btn-add, .btn-edit {
+	background-color: rgb(136, 136, 136);
+	border-radius: 5px;
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+	padding: 5px 10px;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.form-body .form-data {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.form-body .form-data label {
+	width: 125px;
+	margin-right: 10px;
+	text-align: right;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.form-body .form-data .form-value {
+	width: calc(100% - 140px);
+	border-radius: 30px;
+	border: 1px solid grey;
+	display: inline-block;
+	padding: 3px;
+}
+
+.form-body .form-data .selection-holder {
+	width: calc(100% - 140px);
+	display: inline-block;
+	border: none;
+	padding: 3px;
+}
+
+.form-body .form-data .selection-row {
+	width: 100%;
+	display: block;
+	border: none;
+	padding: 3px;
+}
+
+.form-body .form-data .selection-row .atk-value {
+	width: calc(100% - 25px);
+	border-radius: 30px;
+	border: 1px solid grey;
+	display: inline-block;
+	padding: 3px;	
+	margin-bottom: 10px;
+}
+
+.form-body .form-data .selection-row .remove-atk-value, .form-body .form-data .selection-row .remove-existing-atk-value, .remove-existing-atk-value {
+	width: 15px;
+	border: none;
+	background-color: transparent;
+	color: red;
+	cursor: pointer;
+}
+
+ .detail-head .collapsable-list {
+ 	padding: 5px 20px;
+ 	background-color: white;
+ }
+
+ .chk-box-atk {
+ 	display: inline-block;
+ 	margin-right: 5px;
+ }
+
+ .chk-box-label {
+ 	text-align: left !important;
+ }
+ .atk-list-holder {
+ 	display: block;
+ }
+ 
+ .extra-margin {
+ 	margin-top: 15px;
+ }
+/*
+.table-hide {
+	display: none;
+}
+
+.table-show {
+	display: block;
+}
+
+.collapsable-table {
+	width: 100%;
+}*/
+
+@media (max-width: 480px) {
+	#chart_penggatian {
+		min-width: 480px;
+		overflow: hidden;
+	}
+	
+	#main-contain {
+		min-width: 480px;
+		float: none;
+		padding: 0;
+	}
+
+	.form-area, .toggle-heading {
+		min-width: 0;
+		padding: 5px;
+		margin-top: 50px;
+	}
+
+	.form-area table tbody tr td .detail-head table tbody tr td {
+		padding: 5px 3px;
+	}
+
+	.form-area table thead tr th, .detail-head table thead th {
+		padding: 5px 3px;
+	}
+}

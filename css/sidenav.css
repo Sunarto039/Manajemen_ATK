@@ -1,0 +1,138 @@
+#sidebar {
+	width: 225px;
+	min-width: 225px;
+	height: 100%;
+	min-height: 100%;
+	float: left;
+	position: fixed;
+	background-color: rgb(19, 40, 73);
+	font-size: 10pt;
+
+}
+
+#topnav button {
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#btmnav {
+	padding: 0;
+}
+
+#sidebar p {
+	display: inline-block;
+	color: white;
+	vertical-align: middle;
+	margin: auto;
+}
+
+.nav-header {
+	width: auto;
+	display: flex;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.navbar{
+	padding: 0;
+	margin-right: auto;
+	margin-left: auto;
+	align-items: normal;
+}
+
+.nav {
+	background-color: rgb(19, 40, 73);
+	padding: 0;
+	color: white;
+}
+
+.nav a {
+	width: 100%;
+}
+
+.nav a li {
+	background-color: inherit;
+	border-radius: 30px;
+	color: white;
+	border: none;
+}
+
+.nav a li:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 30px;
+	color: white;
+}
+
+.nav a:hover {
+	text-decoration: none;
+}
+
+.list-group-item {
+	background-color: inherit;
+	border: none;
+	color: white;
+}
+
+.toggle_bar {
+	padding: 0px;
+	display: block;
+    position: relative;
+    width: 22px;
+	border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.ic_bar {
+    border-top: white solid 1px;
+    height: 1px;
+}
+
+.bar1 {
+	margin-top: 3px;
+	display: inherit;
+}
+
+.bar2 {
+	margin-top: 5px;
+	display: inherit;
+}
+
+.bar3 {
+	margin-top: 5px;
+	margin-bottom: 3px;
+	display: inherit;;
+}
+
+@media (min-width: 480px) {
+	#topmenu {
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+
+	#sidebar {
+		height: auto;
+		min-height: auto;
+		width: 100%;
+		float: none;
+	}
+
+	#topnav {
+		margin: 0px;
+		padding: 1px;
+		padding-top: 0;
+		margin-top: 0;
+	}
+
+    #btmnav {
+        display: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+}

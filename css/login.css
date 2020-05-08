@@ -1,0 +1,42 @@
+#main-contain {
+	width: 100%;
+	display: block;
+	font-size: 10pt;
+}
+
+#login-contain {
+	margin-top: 50px;
+	width: 480px;
+}
+
+#login-header {
+	padding: 15px 0px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	background-color: rgb(176, 196, 222);
+}
+
+#login-title {
+	padding: 5px 0px;
+	background-color: rgb(19, 40, 73);
+	color: white;
+}
+
+#login-body {
+	padding: 25px 0px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	background-color: rgb(176, 196, 222);
+}
+
+
+#login-img-logo {
+	width: 100px;
+	height: 100px;
+	display: block;
+}
+
+#login-title h1{
+	margin: 0;
+	font-size: 13pt;
+}

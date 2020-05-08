@@ -1,0 +1,7 @@
+.form-body .form-data .selection-holder #add-atk {
+	display: block;
+	float: left;
+	border-radius: 100%;
+	border: none;
+	background-color: rgb(185, 185, 185);
+}
